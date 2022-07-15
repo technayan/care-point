@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Open+Sans:wght@400;500;700&display=swap");
 *,
 *::before,
 *::after {
@@ -14,6 +14,7 @@ html {
 }
 
 body {
+  font-family: "Open Sans", sans-serif;
   font-size: 1.6rem;
   overflow-x: hidden !important;
 }
@@ -128,4 +129,50 @@ section {
             transform: translateX(0%);
     opacity: 1;
   }
+}
+
+.top-navbar {
+  border-bottom: 1px solid #ececec;
+}
+
+.top-navbar .top-navbar-element .icon-wrapper {
+  width: 4rem;
+  height: 4rem;
+  background: #1a9bdc;
+  border-radius: 50%;
+}
+
+.top-navbar .top-navbar-element .icon-wrapper i {
+  font-size: 2rem;
+  position: relative;
+  width: 4rem;
+  height: 4rem;
+  color: #fff;
+  margin-top: 1rem;
+}
+
+.top-navbar .top-navbar-element p {
+  font-size: 1.3rem;
+  line-height: 1;
+}
+
+.top-navbar .top-navbar-element span {
+  font-size: 1.3rem;
+}
+
+.navbar-nav .nav-link {
+  color: #6c6c6c;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link:active, .navbar-nav .nav-link:focus {
+  color: #1a9bdc;
+}
+
+.navbar-social-icons .social-icon {
+  color: #191919;
+}
+
+.navbar-social-icons .social-icon:hover {
+  color: #1a9bdc;
 }

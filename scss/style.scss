@@ -1,2 +1,51 @@
 @import '_reset';
 @import '_animations';
+
+// Navbar CSS Start
+.top-navbar {
+    border-bottom: 1px solid $divider-color;
+    .top-navbar-element {
+        .icon-wrapper {
+            width: 4rem;
+            height: 4rem;
+            background: $primary-color;
+            border-radius: 50%;
+            i {
+                font-size: 2rem;
+                position: relative;
+                width: 4rem;
+                height: 4rem;
+                color: #fff;
+                margin-top: 1rem;
+            }
+        }
+        p {
+            font-size: 1.3rem;
+            line-height: 1;
+        }
+        span {
+            font-size: 1.3rem;
+        }
+    }
+}
+.navbar-nav {
+    .nav-link {
+        color: $navlink-color;
+        font-weight: 500;
+        &:hover,
+        &:active,
+        &:focus {
+            color: $primary-color;
+
+        }
+    }
+}
+.navbar-social-icons {
+    .social-icon {
+        color: $navbar-social-icon;
+        &:hover {
+            color: $primary-color;
+        }
+    }
+}
+// Navbar CSS End
