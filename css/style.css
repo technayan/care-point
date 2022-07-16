@@ -212,3 +212,24 @@ section {
   font-size: 4rem;
   font-weight: 700;
 }
+
+.specialty-section .treatment {
+  background: #43b1d2;
+}
+
+.specialty-section .emergency {
+  background: #3fb6c6;
+}
+
+.specialty-section .stuff {
+  background: #3cbbbb;
+}
+
+.specialty-section .doctor {
+  background: #37c3a8;
+}
+
+.specialty-section i {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
