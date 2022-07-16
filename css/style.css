@@ -351,13 +351,18 @@ button {
 }
 
 .blog-section .accordion .accordion-item .accordion-button {
-  background: #e2e2e2;
-  color: #6a6a6a;
+  background: #1a9bdc;
+  color: #fff;
   margin: 1rem 0;
 }
 
 .blog-section .accordion .accordion-item .accordion-button::after {
   display: none;
+}
+
+.blog-section .accordion .accordion-item .accordion-button.collapsed {
+  background: #e2e2e2;
+  color: #6a6a6a;
 }
 
 .gallery-section {

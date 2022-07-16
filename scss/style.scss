@@ -170,12 +170,16 @@
         .accordion-item {
             border: none;
             .accordion-button {
-                background: $accordion-bg;
-                color: $text-color;
+                background: $primary-color;
+                color: #fff;
                 margin: 1rem 0;
                 &::after {
                     display: none;
                 }
+            }
+            .accordion-button.collapsed {
+                background: $accordion-bg;
+                color: $text-color
             }
         }
     }
