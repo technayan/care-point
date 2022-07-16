@@ -148,3 +148,36 @@
     }
 }
 // Summery Section CSS End
+
+// Blog Section CSS Start
+.blog-section {
+    .blog-wrapper {
+        margin-top: 5rem;
+        .blog-title {
+            color: $text-color;
+            &:hover {
+                color: $primary-color;
+            }
+        }
+        .blog-info {
+            color: $primary-color;
+            font-weight: 700;
+            font-size: 1.3rem;
+        }
+    }
+    .accordion {
+        border-radius: 30px !important;
+    }
+    .accordion-item {
+        border: none;
+    }
+    .accordion-button {
+        background: $primary-color;
+        color: #fff;
+        margin: 1rem 0;
+        &::after {
+            display: none;
+        }
+    }
+}
+// Blog Section CSS End

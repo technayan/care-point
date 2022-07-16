@@ -82,6 +82,7 @@ button {
   width: 80%;
   margin: auto;
   text-align: center;
+  margin-top: 1rem;
 }
 
 @-webkit-keyframes fadeInTop {
@@ -321,4 +322,40 @@ button {
           transform: translateX(-50%);
   height: 0.3rem;
   background: #fff;
+}
+
+.blog-section .blog-wrapper {
+  margin-top: 5rem;
+}
+
+.blog-section .blog-wrapper .blog-title {
+  color: #6a6a6a;
+}
+
+.blog-section .blog-wrapper .blog-title:hover {
+  color: #1a9bdc;
+}
+
+.blog-section .blog-wrapper .blog-info {
+  color: #1a9bdc;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.blog-section .accordion {
+  border-radius: 30px !important;
+}
+
+.blog-section .accordion-item {
+  border: none;
+}
+
+.blog-section .accordion-button {
+  background: #1a9bdc;
+  color: #fff;
+  margin: 1rem 0;
+}
+
+.blog-section .accordion-button::after {
+  display: none;
 }
