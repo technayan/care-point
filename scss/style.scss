@@ -190,3 +190,17 @@
     background-position: center center;
 }
 // Gallery Section CSS End
+
+// Our Doctors Section CSS Start
+.our-doctors-section {
+    .doctor-social-icons {
+        .social-icon {
+            font-size: 2.5rem;
+            color: $text-color;
+            &:hover {
+                color: $primary-color;
+            }
+        }
+    }
+}
+// Our Doctors Section CSS End
