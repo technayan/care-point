@@ -359,3 +359,10 @@ button {
 .blog-section .accordion-button::after {
   display: none;
 }
+
+.gallery-section {
+  background-image: url(../assets/gallery-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
