@@ -17,6 +17,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 1.6rem;
   overflow-x: hidden !important;
+  color: #6a6a6a;
 }
 
 a {
@@ -43,7 +44,7 @@ button {
   transition: 0.3s ease;
 }
 
-section {
+.section {
   padding: 7rem 0;
 }
 
@@ -68,6 +69,19 @@ section {
 .primary-btn:hover {
   background: #262626;
   color: #fff;
+}
+
+.section-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: #494949;
+}
+
+.section-desc {
+  width: 80%;
+  margin: auto;
+  text-align: center;
 }
 
 @-webkit-keyframes fadeInTop {
@@ -211,6 +225,7 @@ section {
 .hero-section .hero-text .hero-title {
   font-size: 4rem;
   font-weight: 700;
+  color: #494949;
 }
 
 .specialty-section .treatment {
@@ -229,7 +244,51 @@ section {
   background: #37c3a8;
 }
 
-.specialty-section i {
-  font-size: 5rem;
+.specialty-section .icon-wrapper {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  margin: 0 auto;
   margin-bottom: 1rem;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.specialty-section .icon-wrapper i {
+  font-size: 3rem;
+  color: #262626;
+}
+
+.why-us-section {
+  margin-top: 7rem;
+}
+
+.why-us-section .icon-wrapper {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  background: #1a9bdc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.why-us-section .icon-wrapper i {
+  font-size: 3rem;
+  color: #fff;
 }

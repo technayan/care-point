@@ -59,12 +59,12 @@
     background-position: center center;
     background-repeat: no-repeat;
     .hero-text {
-        
         padding: 10rem 0;
         border-radius: 50%;
         .hero-title {
             font-size: 4rem;
             font-weight: 700;
+            color: $title-color;
         }
     }
 }
@@ -84,9 +84,40 @@
     .doctor {
         background: #37c3a8;
     }
-    i {
-        font-size: 5rem;
+    .icon-wrapper {
+        width: 6rem;
+        height: 6rem;
+        border-radius: 50%;
+        margin: 0 auto;
         margin-bottom: 1rem;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        i {
+            font-size: 3rem;
+            color: $secondary-color;
+        }
     }
 }
 // Specialty Section CSS End
+
+// Why Us Section CSS Start
+.why-us-section {
+    margin-top: 7rem;
+    .icon-wrapper {
+        width: 6rem;
+        height: 6rem;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+        background: $primary-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        i {
+            font-size: 3rem;
+            color: #fff;
+        }
+    }
+}
+// Why Us Section CSS End

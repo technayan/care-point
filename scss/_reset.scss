@@ -23,6 +23,7 @@ body {
     font-family: $secondary-font;
     font-size: 1.6rem;
     overflow-x: hidden !important;
+    color: $text-color;
 }
 
 a {
@@ -45,7 +46,7 @@ button {
     transition: 0.3s ease;
 }
 
-section {
+.section {
     padding: 7rem 0;
 }
 
@@ -68,4 +69,17 @@ section {
         background: $secondary-color;
         color: #fff;
     }
+}
+
+.section-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: $title-color;
+}
+
+.section-desc {
+    width: 80%;
+    margin: auto;
+    text-align: center;
 }
