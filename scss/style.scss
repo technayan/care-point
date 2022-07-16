@@ -167,16 +167,16 @@
     }
     .accordion {
         border-radius: 30px !important;
-    }
-    .accordion-item {
-        border: none;
-    }
-    .accordion-button {
-        background: $primary-color;
-        color: #fff;
-        margin: 1rem 0;
-        &::after {
-            display: none;
+        .accordion-item {
+            border: none;
+            .accordion-button {
+                background: $accordion-bg;
+                color: $text-color;
+                margin: 1rem 0;
+                &::after {
+                    display: none;
+                }
+            }
         }
     }
 }
@@ -204,3 +204,9 @@
     }
 }
 // Our Doctors Section CSS End
+
+// Special Offer Call to Action CSS Start
+.special-offer {
+    background: $accordion-bg;
+}
+// Special Offer Call to Action CSS End

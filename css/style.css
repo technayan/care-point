@@ -346,17 +346,17 @@ button {
   border-radius: 30px !important;
 }
 
-.blog-section .accordion-item {
+.blog-section .accordion .accordion-item {
   border: none;
 }
 
-.blog-section .accordion-button {
-  background: #1a9bdc;
-  color: #fff;
+.blog-section .accordion .accordion-item .accordion-button {
+  background: #e2e2e2;
+  color: #6a6a6a;
   margin: 1rem 0;
 }
 
-.blog-section .accordion-button::after {
+.blog-section .accordion .accordion-item .accordion-button::after {
   display: none;
 }
 
@@ -374,4 +374,8 @@ button {
 
 .our-doctors-section .doctor-social-icons .social-icon:hover {
   color: #1a9bdc;
+}
+
+.special-offer {
+  background: #e2e2e2;
 }
