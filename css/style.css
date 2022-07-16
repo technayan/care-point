@@ -379,3 +379,84 @@ button {
 .special-offer {
   background: #e2e2e2;
 }
+
+footer {
+  padding-top: 7rem;
+  background: #171717;
+  color: #8d8d8d;
+}
+
+footer .footer-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  color: #fff;
+}
+
+footer a {
+  color: #8d8d8d;
+}
+
+footer a:hover {
+  color: #1a9bdc;
+}
+
+footer .footer-icon-wrapper {
+  margin-right: 1rem;
+  min-width: 40px;
+  text-align: center;
+}
+
+footer .footer-icon-wrapper .footer-icon {
+  font-size: 30px;
+}
+
+footer .footer-social-icons .social-icon {
+  color: #fff;
+}
+
+footer .footer-social-icons .social-icon:hover {
+  color: #1a9bdc;
+}
+
+footer li {
+  position: relative;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+footer li::before {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 0.6rem solid transparent;
+  border-bottom: 0.6rem solid transparent;
+  border-left: 0.6rem solid #1a9bdc;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: -2rem;
+}
+
+footer .footer-form input[type=text],
+footer .footer-form textarea {
+  padding: 1rem 0;
+  border: none;
+  border-bottom: 1px solid #6a6a6a;
+  background: transparent;
+  width: 100%;
+  color: #fff;
+}
+
+footer .footer-form input[type=text]:focus,
+footer .footer-form textarea:focus {
+  outline: none;
+}
+
+footer .copyright {
+  padding: 2rem;
+  margin-top: 5rem;
+  background: #1a1a1a;
+}

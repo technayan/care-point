@@ -210,3 +210,75 @@
     background: $accordion-bg;
 }
 // Special Offer Call to Action CSS End
+
+// Footer CSS Start
+footer {
+    padding-top: 7rem;
+    background: $footer-bg;
+    color: $footer-text-color;
+    .footer-title {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 3rem;
+        color: #fff;
+    }
+    a {
+        color: $footer-text-color;
+        &:hover {
+            color: $primary-color;
+        }
+    }
+    .footer-icon-wrapper {
+        margin-right: 1rem;
+        min-width: 40px;
+        text-align: center;
+        .footer-icon {
+            font-size: 30px;
+        }
+    }
+    .footer-social-icons {
+        .social-icon {
+            color: #fff;
+            &:hover {
+                color: $primary-color;
+            }
+        }
+    }
+    li {
+        position: relative;
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+        &::before {
+            position: absolute;
+            content: '';
+            width: 0;
+            height: 0;
+            border-top: 0.6rem solid transparent;
+            border-bottom: 0.6rem solid transparent;
+            border-left: 0.6rem solid $primary-color;
+            top: 50%;
+            transform: translateY(-50%);
+            left: -2rem;
+        }
+    }
+    .footer-form {
+        input[type=text],
+        textarea {
+            padding: 1rem 0;
+            border: none;
+            border-bottom: 1px solid $text-color;
+            background: transparent;
+            width: 100%;
+            color: #fff;
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+    .copyright {
+        padding: 2rem;
+        margin-top: 5rem;
+        background: $copyright-bg;
+    }
+}
+// Footer CSS End
