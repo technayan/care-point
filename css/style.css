@@ -292,3 +292,33 @@ button {
   font-size: 3rem;
   color: #fff;
 }
+
+.summery-section {
+  background-image: url(../assets/summery-bg.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.summery-section .summery-icon {
+  font-size: 5rem;
+  margin: 1rem;
+}
+
+.summery-section h2 {
+  font-size: 4rem;
+  position: relative;
+}
+
+.summery-section h2::after {
+  position: absolute;
+  content: '';
+  width: 5rem;
+  bottom: -1.5rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 0.3rem;
+  background: #fff;
+}
