@@ -192,21 +192,21 @@ button {
   font-size: 1.3rem;
 }
 
-.navbar-nav .nav-link {
+.navbar .navbar-nav .nav-link {
   color: #6c6c6c;
   font-weight: 500;
 }
 
-.navbar-nav .nav-link:hover, .navbar-nav .nav-link:active, .navbar-nav .nav-link:focus {
+.navbar .navbar-nav .nav-link:hover, .navbar .navbar-nav .nav-link:active, .navbar .navbar-nav .nav-link:focus {
   color: #1a9bdc;
 }
 
-.navbar-social-icons .social-icon {
+.navbar .navbar-social-icons .social-icon {
   color: #191919;
   font-size: 1.8rem;
 }
 
-.navbar-social-icons .social-icon:hover {
+.navbar .navbar-social-icons .social-icon:hover {
   color: #1a9bdc;
 }
 
