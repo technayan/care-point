@@ -30,7 +30,7 @@
 }
 .navbar {
     // Responsive CSS
-    @include mq (990px) {
+    @include mq (990.98px) {
             position: fixed;
             top: 0;
             width: 100%;
@@ -68,11 +68,20 @@
     background-repeat: no-repeat;
     .hero-text {
         padding: 10rem 0;
-        background: radial-gradient(circle, rgba(255,255,255,0.8) 35%, rgba(15,207,236,0) 65%);
+        // background: radial-gradient(circle, rgba(255,255,255,0.8) 35%, rgba(15,207,236,0) 65%);
         .hero-title {
             font-size: 4rem;
             font-weight: 700;
             color: $title-color;
+            @include mq (990.98px) {
+                font-size: 3rem;
+                width: 60%;
+            }
+        }
+        .hero-desc {
+            @include mq (990.98px) {
+                width: 60%;
+            }
         }
     }
 }
@@ -113,6 +122,9 @@
 // Why Us Section CSS Start
 .why-us-section {
     margin-top: 7rem;
+    @include mq (990.98px) {
+        margin-top: 5rem;
+    }
     .icon-wrapper {
         width: 6rem;
         height: 6rem;
@@ -127,6 +139,15 @@
             color: #fff;
         }
     }
+    .service-title {
+        font-size: 2.5rem;
+        @include mq (1199.98px) {
+            font-size: 2.1rem;
+        }
+        @include mq (990.98px) {
+            font-size: 2.5rem;
+        }
+    }
 }
 // Why Us Section CSS End
 
@@ -139,10 +160,16 @@
     .summery-icon {
         font-size: 5rem;
         margin: 1rem ;
+        @include mq (990.98px) {
+            font-size: 4rem;
+        }
     }
     h2 {
         font-size: 4rem;
         position: relative;
+        @include mq (990.98px) {
+            font-size: 2.5rem;
+        }
         &::after {
             position: absolute;
             content: '';
@@ -152,6 +179,12 @@
             transform: translateX(-50%);
             height: 0.3rem;
             background: #fff;
+        }
+    }
+    .summery-text {
+        font-size: 2rem;
+        @include mq (990.98px) {
+            font-size: 1.8rem;
         }
     }
 }
@@ -209,6 +242,9 @@
         .social-icon {
             font-size: 2.5rem;
             color: $text-color;
+            @include mq (990.98px) {
+                font-size: 3rem;
+            }
             &:hover {
                 color: $primary-color;
             }
@@ -220,6 +256,12 @@
 // Special Offer Call to Action CSS Start
 .special-offer {
     background: $accordion-bg;
+    .offer-text {
+        font-size: 2rem;
+        @include mq (990.98px) {
+            font-size: 1.8rem;
+        }
+    }
 }
 // Special Offer Call to Action CSS End
 

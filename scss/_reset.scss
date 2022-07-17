@@ -50,8 +50,14 @@ button {
     padding: 7rem 0;
 }
 
+@include mq (990.98px) {
+    .section{
+        padding: 5rem 0;
+    }
+}
+
 @include mq (575.98px) {
-    section{
+    .section{
         padding: 4rem 0;
     }
 }
@@ -76,6 +82,9 @@ button {
     font-weight: 700;
     text-align: center;
     color: $title-color;
+    @include mq (990.98px) {
+        font-size: 3rem;
+    }
 }
 
 .section-desc {

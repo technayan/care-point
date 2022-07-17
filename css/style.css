@@ -48,8 +48,14 @@ button {
   padding: 7rem 0;
 }
 
+@media (max-width: 990.98px) {
+  .section {
+    padding: 5rem 0;
+  }
+}
+
 @media (max-width: 575.98px) {
-  section {
+  .section {
     padding: 4rem 0;
   }
 }
@@ -76,6 +82,12 @@ button {
   font-weight: 700;
   text-align: center;
   color: #494949;
+}
+
+@media (max-width: 990.98px) {
+  .section-title {
+    font-size: 3rem;
+  }
 }
 
 .section-desc {
@@ -192,7 +204,7 @@ button {
   font-size: 1.3rem;
 }
 
-@media (max-width: 990px) {
+@media (max-width: 990.98px) {
   .navbar {
     position: fixed;
     top: 0;
@@ -228,14 +240,25 @@ button {
 
 .hero-section .hero-text {
   padding: 10rem 0;
-  background: -o-radial-gradient(circle, rgba(255, 255, 255, 0.8) 35%, rgba(15, 207, 236, 0) 65%);
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 35%, rgba(15, 207, 236, 0) 65%);
 }
 
 .hero-section .hero-text .hero-title {
   font-size: 4rem;
   font-weight: 700;
   color: #494949;
+}
+
+@media (max-width: 990.98px) {
+  .hero-section .hero-text .hero-title {
+    font-size: 3rem;
+    width: 60%;
+  }
+}
+
+@media (max-width: 990.98px) {
+  .hero-section .hero-text .hero-desc {
+    width: 60%;
+  }
 }
 
 .specialty-section .treatment {
@@ -281,6 +304,12 @@ button {
   margin-top: 7rem;
 }
 
+@media (max-width: 990.98px) {
+  .why-us-section {
+    margin-top: 5rem;
+  }
+}
+
 .why-us-section .icon-wrapper {
   width: 6rem;
   height: 6rem;
@@ -303,6 +332,22 @@ button {
   color: #fff;
 }
 
+.why-us-section .service-title {
+  font-size: 2.5rem;
+}
+
+@media (max-width: 1199.98px) {
+  .why-us-section .service-title {
+    font-size: 2.1rem;
+  }
+}
+
+@media (max-width: 990.98px) {
+  .why-us-section .service-title {
+    font-size: 2.5rem;
+  }
+}
+
 .summery-section {
   background-image: url(../assets/summery-bg.png);
   background-size: cover;
@@ -315,9 +360,21 @@ button {
   margin: 1rem;
 }
 
+@media (max-width: 990.98px) {
+  .summery-section .summery-icon {
+    font-size: 4rem;
+  }
+}
+
 .summery-section h2 {
   font-size: 4rem;
   position: relative;
+}
+
+@media (max-width: 990.98px) {
+  .summery-section h2 {
+    font-size: 2.5rem;
+  }
 }
 
 .summery-section h2::after {
@@ -331,6 +388,16 @@ button {
           transform: translateX(-50%);
   height: 0.3rem;
   background: #fff;
+}
+
+.summery-section .summery-text {
+  font-size: 2rem;
+}
+
+@media (max-width: 990.98px) {
+  .summery-section .summery-text {
+    font-size: 1.8rem;
+  }
 }
 
 .blog-section .blog-wrapper {
@@ -386,12 +453,28 @@ button {
   color: #6a6a6a;
 }
 
+@media (max-width: 990.98px) {
+  .our-doctors-section .doctor-social-icons .social-icon {
+    font-size: 3rem;
+  }
+}
+
 .our-doctors-section .doctor-social-icons .social-icon:hover {
   color: #1a9bdc;
 }
 
 .special-offer {
   background: #e2e2e2;
+}
+
+.special-offer .offer-text {
+  font-size: 2rem;
+}
+
+@media (max-width: 990.98px) {
+  .special-offer .offer-text {
+    font-size: 1.8rem;
+  }
 }
 
 footer {
