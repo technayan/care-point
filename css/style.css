@@ -90,6 +90,12 @@ button {
   }
 }
 
+@media (max-width: 767.98px) {
+  .section-title {
+    font-size: 2.3rem;
+  }
+}
+
 .section-desc {
   width: 80%;
   margin: auto;
@@ -256,6 +262,13 @@ button {
 }
 
 @media (max-width: 990.98px) {
+  .hero-section .hero-text .hero-title {
+    font-size: 3rem;
+    width: 60%;
+  }
+}
+
+@media (max-width: 990.98px) {
   .hero-section .hero-text .hero-desc {
     width: 60%;
   }
@@ -265,16 +278,32 @@ button {
   background: #43b1d2;
 }
 
+.specialty-section .treatment i {
+  color: #1a9bdc;
+}
+
 .specialty-section .emergency {
   background: #3fb6c6;
+}
+
+.specialty-section .emergency i {
+  color: #3fb6c6;
 }
 
 .specialty-section .stuff {
   background: #3cbbbb;
 }
 
+.specialty-section .stuff i {
+  color: #3cbbbb;
+}
+
 .specialty-section .doctor {
   background: #37c3a8;
+}
+
+.specialty-section .doctor i {
+  color: #37c3a8;
 }
 
 .specialty-section .icon-wrapper {
@@ -295,9 +324,25 @@ button {
           align-items: center;
 }
 
+@media (max-width: 990.98px) {
+  .specialty-section .icon-wrapper {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+
 .specialty-section .icon-wrapper i {
   font-size: 3rem;
-  color: #262626;
+}
+
+@media (max-width: 990.98px) {
+  .specialty-section .icon-wrapper i {
+    font-size: 2.5rem;
+  }
+}
+
+.specialty-section .specialty-title {
+  font-size: 2rem;
 }
 
 .why-us-section {
@@ -327,9 +372,35 @@ button {
           align-items: center;
 }
 
+@media (max-width: 990.98px) {
+  .why-us-section .icon-wrapper {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .why-us-section .icon-wrapper {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+
 .why-us-section .icon-wrapper i {
   font-size: 3rem;
   color: #fff;
+}
+
+@media (max-width: 990.98px) {
+  .why-us-section .icon-wrapper i {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .why-us-section .icon-wrapper i {
+    font-size: 2rem;
+  }
 }
 
 .why-us-section .service-title {
@@ -344,7 +415,13 @@ button {
 
 @media (max-width: 990.98px) {
   .why-us-section .service-title {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .why-us-section .service-title {
+    font-size: 1.8rem;
   }
 }
 
@@ -366,6 +443,12 @@ button {
   }
 }
 
+@media (max-width: 767.98px) {
+  .summery-section .summery-icon {
+    font-size: 3.5rem;
+  }
+}
+
 .summery-section h2 {
   font-size: 4rem;
   position: relative;
@@ -374,6 +457,12 @@ button {
 @media (max-width: 990.98px) {
   .summery-section h2 {
     font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .summery-section h2 {
+    font-size: 2rem;
   }
 }
 
@@ -390,6 +479,13 @@ button {
   background: #fff;
 }
 
+@media (max-width: 767.98px) {
+  .summery-section h2::after {
+    bottom: -1rem;
+    height: 0.1rem;
+  }
+}
+
 .summery-section .summery-text {
   font-size: 2rem;
 }
@@ -397,6 +493,12 @@ button {
 @media (max-width: 990.98px) {
   .summery-section .summery-text {
     font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .summery-section .summery-text {
+    font-size: 1.7rem;
   }
 }
 
@@ -474,6 +576,12 @@ button {
 @media (max-width: 990.98px) {
   .special-offer .offer-text {
     font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .special-offer .offer-text {
+    font-size: 1.6rem;
   }
 }
 
