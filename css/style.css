@@ -227,6 +227,12 @@ button {
   color: #1a9bdc;
 }
 
+@media (max-width: 575.98px) {
+  .navbar .navbar-nav .nav-link {
+    margin: 0.7rem 0;
+  }
+}
+
 .navbar .navbar-social-icons .social-icon {
   color: #191919;
   font-size: 1.8rem;
@@ -238,10 +244,22 @@ button {
 
 .hero-section {
   height: 50rem;
-  background-image: url(../assets/hero-img.png);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0))), url(../assets/hero-img.png);
+  background: -o-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url(../assets/hero-img.png);
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url(../assets/hero-img.png);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+}
+
+@media (max-width: 575.98px) {
+  .hero-section {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))), url(../assets/hero-img.png);
+    background: -o-linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../assets/hero-img.png);
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../assets/hero-img.png);
+    background-position: 65% 80%;
+    background-size: cover;
+  }
 }
 
 .hero-section .hero-text {
@@ -268,9 +286,36 @@ button {
   }
 }
 
+@media (max-width: 767.98px) {
+  .hero-section .hero-text .hero-title {
+    width: 75%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hero-section .hero-text .hero-title {
+    font-size: 2.5rem;
+    width: 100%;
+    text-align: center;
+  }
+}
+
 @media (max-width: 990.98px) {
   .hero-section .hero-text .hero-desc {
     width: 60%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .hero-section .hero-text .hero-desc {
+    width: 70%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hero-section .hero-text .hero-desc {
+    width: 100%;
+    text-align: center;
   }
 }
 
@@ -386,6 +431,13 @@ button {
   }
 }
 
+@media (max-width: 575.98px) {
+  .why-us-section .icon-wrapper {
+    width: 6rem;
+    height: 6rem;
+  }
+}
+
 .why-us-section .icon-wrapper i {
   font-size: 3rem;
   color: #fff;
@@ -400,6 +452,12 @@ button {
 @media (max-width: 767.98px) {
   .why-us-section .icon-wrapper i {
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .why-us-section .icon-wrapper i {
+    font-size: 3rem;
   }
 }
 

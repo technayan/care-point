@@ -45,6 +45,9 @@
                 color: $primary-color;
     
             }
+            @include mq (575.98px) {
+                margin: 0.7rem 0;
+            }
         }
     }
     .navbar-social-icons {
@@ -62,13 +65,17 @@
 // Hero Section CSS Start
 .hero-section {
     height: 50rem;
-    background-image: url(../assets/hero-img.png);
+    background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0)), url(../assets/hero-img.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    @include mq (575.98px) {
+        background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url(../assets/hero-img.png);
+        background-position: 65% 80%;
+        background-size: cover;
+    }
     .hero-text {
         padding: 10rem 0;
-        // background: radial-gradient(circle, rgba(255,255,255,0.8) 35%, rgba(15,207,236,0) 65%);
         .hero-title {
             font-size: 4rem;
             font-weight: 700;
@@ -81,10 +88,25 @@
                 font-size: 3rem;
                 width: 60%;
             }
+            @include mq (767.98px) {
+                width: 75%;
+            }
+            @include mq (575.98px) {
+                font-size: 2.5rem;
+                width: 100%;
+                text-align: center;
+            }
         }
         .hero-desc {
             @include mq (990.98px) {
                 width: 60%;
+            }
+            @include mq (767.98px) {
+                width: 70%;
+            }
+            @include mq (575.98px) {
+                width: 100%;
+                text-align: center;
             }
         }
     }
@@ -169,6 +191,10 @@
             width: 4rem;
             height: 4rem;
         }
+        @include mq (575.98px) {
+            width: 6rem;
+            height: 6rem;
+        }
         i {
             font-size: 3rem;
             color: #fff;
@@ -177,6 +203,9 @@
             }
             @include mq (767.98px) {
                 font-size: 2rem;
+            }
+            @include mq (575.98px) {
+                font-size: 3rem;
             }
         }
     }
