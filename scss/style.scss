@@ -386,6 +386,32 @@
 }
 // Special Offer Call to Action CSS End
 
+// To Top Button CSS Start
+.to-top {
+    height: 4rem;
+    width: 4rem;
+    background: $primary-color;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: -10rem;
+    right: 2rem;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    z-index: 100;
+    @include mq (575.98px) {
+        width: 3.5rem;
+        height: 3.5rem;
+        font-size: 1.4rem;
+    }
+    &:hover {
+        background: $secondary-color;
+    }
+}
+// To Top Button CSS End
+
 // Footer CSS Start
 footer {
     padding-top: 7rem;
@@ -422,8 +448,10 @@ footer {
     }
     li {
         position: relative;
-        margin-left: 1.5rem;
-        margin-bottom: 1rem;
+        margin: 1rem 0 1rem 1.5rem;
+        @include mq (575.98px) {
+            margin: 1.5rem;
+        }
         &::before {
             position: absolute;
             content: '';
