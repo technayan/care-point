@@ -586,6 +586,12 @@ button {
   color: #6a6a6a;
 }
 
+@media (max-width: 990.98px) {
+  .blog-section .blog-wrapper .blog-title h3 {
+    font-size: 2rem;
+  }
+}
+
 .blog-section .blog-wrapper .blog-title:hover {
   color: #1a9bdc;
 }
