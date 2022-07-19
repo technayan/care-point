@@ -57,3 +57,6 @@ toTop.addEventListener('click', () => {
         behavior: "smooth"
     })
 })
+
+// WOW JS
+new WOW().init();
