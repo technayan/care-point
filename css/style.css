@@ -18,6 +18,7 @@ body {
   font-size: 1.6rem;
   overflow-x: hidden !important;
   color: #6a6a6a;
+  position: absolute;
 }
 
 a {
@@ -42,6 +43,12 @@ button {
   -webkit-transition: 0.3s ease;
   -o-transition: 0.3s ease;
   transition: 0.3s ease;
+}
+
+@media (max-width: 575.98px) {
+  .container {
+    --bs-gutter-x: 2rem;
+  }
 }
 
 .section {
@@ -218,6 +225,17 @@ button {
   }
 }
 
+.navbar .navbar-toggler {
+  width: 3rem;
+  height: 2.5rem;
+  padding: 0;
+}
+
+.navbar .navbar-toggler:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 .navbar .navbar-nav .nav-link {
   color: #6c6c6c;
   font-weight: 500;
@@ -227,9 +245,9 @@ button {
   color: #1a9bdc;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 990.98px) {
   .navbar .navbar-nav .nav-link {
-    margin: 0.7rem 0;
+    margin: 0.7rem 0 !important;
   }
 }
 
@@ -609,14 +627,8 @@ button {
 }
 
 .our-doctors-section .doctor-social-icons .social-icon {
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #6a6a6a;
-}
-
-@media (max-width: 990.98px) {
-  .our-doctors-section .doctor-social-icons .social-icon {
-    font-size: 3rem;
-  }
 }
 
 .our-doctors-section .doctor-social-icons .social-icon:hover {
@@ -676,6 +688,7 @@ footer .footer-icon-wrapper .footer-icon {
 
 footer .footer-social-icons .social-icon {
   color: #fff;
+  font-size: 2.5rem;
 }
 
 footer .footer-social-icons .social-icon:hover {
@@ -684,7 +697,7 @@ footer .footer-social-icons .social-icon:hover {
 
 footer li {
   position: relative;
-  margin-left: 2rem;
+  margin-left: 1.5rem;
   margin-bottom: 1rem;
 }
 
@@ -700,7 +713,7 @@ footer li::before {
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
-  left: -2rem;
+  left: -1.5rem;
 }
 
 footer .footer-form input[type=text],

@@ -24,6 +24,7 @@ body {
     font-size: 1.6rem;
     overflow-x: hidden !important;
     color: $text-color;
+    position: absolute;
 }
 
 a {
@@ -44,6 +45,12 @@ h4 {
 
 button {
     transition: 0.3s ease;
+}
+
+.container {
+    @include mq (575.98px) {
+        --bs-gutter-x: 2rem;
+    }
 }
 
 .section {
