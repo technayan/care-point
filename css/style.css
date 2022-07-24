@@ -554,7 +554,7 @@ button {
 }
 
 .gallery-section {
-  background-image: url(../assets/gallery-bg.png);
+  background: #3fb6c6;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
